@@ -4,18 +4,18 @@
 // ======================================================================
 
 // ---- Wi-Fi (2.4 GHz network; the ESP32 can't use 5 GHz) ----
-#define WIFI_SSID      "AAB3 Hyperoptic 1Gb Fibre 2.4Ghz"
-#define WIFI_PASSWORD  "4Qe2224FH46A"
-#define WIFI_SSID_2      "GiantFrog"
-#define WIFI_PASSWORD_2  "TiggyDinoSausage2025"
+#define WIFI_SSID      "Enter your wifi SSID here"
+#define WIFI_PASSWORD  "Enter your wifi password here"
+#define WIFI_SSID_2      "Enter your 2nd wifi SSID here"
+#define WIFI_PASSWORD_2  "Enter your 2nd wifi password here"
 
 // ---- Nightscout ----
 // No trailing slash.
-#define NS_URL         "https://nightscoutmaster-rq2s.onrender.com"
+#define NS_URL         "enter your Nightscout URL here"
 // Leave empty: your site is readable without a token.
 // If you lock it down later, put a read-only token here.
 #define NS_TOKEN       ""
-// Only show readings from this sensor (your site has two uploading).
+// Only show readings from this sensor (change if necessary).
 #define NS_DEVICE      "Libre2"
 
 // ---- Time zone (for the clock) ----
