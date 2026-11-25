@@ -12,7 +12,7 @@
 // ---- Nightscout ----
 // No trailing slash.
 #define NS_URL         "enter your Nightscout URL here"
-// Leave empty: your site is readable without a token.
+// Leave empty if your site is readable without a token.
 // If you lock it down later, put a read-only token here.
 #define NS_TOKEN       ""
 // Only show readings from this sensor (change if necessary).
