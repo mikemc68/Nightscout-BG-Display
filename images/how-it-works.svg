@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 230" width="960" height="230" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="960" height="230" rx="14" fill="#f6f7f9"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <g fill="#ffffff" stroke="#d1d5db" stroke-width="1.5">
+    <rect x="20" y="50" width="160" height="120" rx="12"/>
+    <rect x="250" y="50" width="170" height="120" rx="12"/>
+    <rect x="490" y="50" width="190" height="120" rx="12"/>
+    <rect x="750" y="50" width="190" height="120" rx="12"/>
+  </g>
+  <!-- sensor -->
+  <circle cx="100" cy="95" r="24" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
+  <circle cx="100" cy="95" r="8" fill="#9ca3af"/>
+  <text x="100" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Libre 2 sensor</text>
+  <text x="100" y="160" text-anchor="middle" font-size="12" fill="#6b7280">on your arm</text>
+  <!-- phone -->
+  <rect x="318" y="66" width="34" height="56" rx="6" fill="#374151"/>
+  <rect x="322" y="72" width="26" height="42" rx="2" fill="#5DCAA5"/>
+  <text x="335" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Phone</text>
+  <text x="335" y="160" text-anchor="middle" font-size="12" fill="#6b7280">Juggluco / AAPS uploads</text>
+  <!-- cloud -->
+  <path d="M548,112 a18,18 0 0 1 4,-35 a24,24 0 0 1 44,-6 a20,20 0 0 1 28,24 a14,14 0 0 1 -4,17 z" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+  <text x="585" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Nightscout</text>
+  <text x="585" y="160" text-anchor="middle" font-size="12" fill="#6b7280">your website, on the internet</text>
+  <!-- display -->
+  <rect x="802" y="70" width="86" height="56" rx="5" fill="#222226"/>
+  <rect x="808" y="76" width="74" height="44" fill="#000"/>
+  <text x="845" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#5DCAA5">6.4</text>
+  <text x="845" y="148" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">This display</text>
+  <text x="845" y="165" text-anchor="middle" font-size="12" fill="#6b7280">checks every 60 s over Wi-Fi</text>
+  <!-- arrows -->
+  <g stroke="#6b7280" stroke-width="2.5" fill="none" marker-end="url(#a)">
+    <line x1="184" y1="110" x2="244" y2="110"/>
+    <line x1="424" y1="110" x2="484" y2="110"/>
+    <line x1="684" y1="110" x2="744" y2="110"/>
+  </g>
+  <g font-size="12" fill="#374151" text-anchor="middle">
+    <text x="215" y="100">Bluetooth</text>
+    <text x="455" y="100">mobile data</text>
+    <text x="715" y="100">Wi-Fi</text>
+  </g>
+  <text x="480" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">How your reading gets to the screen</text>
+  <text x="480" y="208" text-anchor="middle" font-size="13" fill="#6b7280">The display only reads from Nightscout. It never talks to the sensor or the phone directly.</text>
+</svg>

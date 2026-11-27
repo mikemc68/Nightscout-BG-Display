@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="760" height="430" rx="14" fill="#f6f7f9"/>
+  <text x="30" y="36" font-size="18" font-weight="700" fill="#111827">Arduino IDE → Tools menu</text>
+  <text x="30" y="58" font-size="13" fill="#6b7280">Illustration. Set the highlighted items; leave everything else as it is.</text>
+
+  <rect x="30" y="76" width="700" height="330" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <g font-size="15" fill="#111827">
+    <!-- rows: y step 36 -->
+    <rect x="31" y="77" width="698" height="36" fill="#dbeafe"/>
+    <text x="50" y="101">Board:</text><text x="330" y="101" font-weight="700">"ESP32S3 Dev Module"</text>
+    <rect x="31" y="113" width="698" height="36" fill="#dbeafe"/>
+    <text x="50" y="137">Port:</text><text x="330" y="137" font-weight="700">COM… (your board)</text>
+    <rect x="31" y="149" width="698" height="36" fill="#dbeafe"/>
+    <text x="50" y="173">USB CDC On Boot:</text><text x="330" y="173" font-weight="700">"Enabled"</text>
+    <text x="50" y="209" fill="#6b7280">CPU Frequency:</text><text x="330" y="209" fill="#6b7280">"240MHz (WiFi)"  (default)</text>
+    <rect x="31" y="221" width="698" height="36" fill="#dbeafe"/>
+    <text x="50" y="245">Flash Size:</text><text x="330" y="245" font-weight="700">"16MB (128Mb)"</text>
+    <rect x="31" y="257" width="698" height="36" fill="#dbeafe"/>
+    <text x="50" y="281">Partition Scheme:</text><text x="330" y="281" font-weight="700">any "16M Flash (…)" option</text>
+    <rect x="31" y="293" width="698" height="36" fill="#dbeafe"/>
+    <text x="50" y="317">PSRAM:</text><text x="330" y="317" font-weight="700">"OPI PSRAM"</text>
+    <text x="50" y="353" fill="#6b7280">Upload Speed:</text><text x="330" y="353" fill="#6b7280">"921600"  (default)</text>
+    <text x="50" y="389" fill="#6b7280">USB Mode:</text><text x="330" y="389" fill="#6b7280">"Hardware CDC and JTAG"  (default)</text>
+  </g>
+  <line x1="310" y1="80" x2="310" y2="402" stroke="#e5e7eb"/>
+</svg>
